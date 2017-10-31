@@ -1,0 +1,180 @@
+body {
+	background-color: 
+}
+
+.jumbotron {
+		background-image: url(../images/jumbotron.png);
+		height: 340px;
+		margin-top: 50px;
+}
+
+h1 {
+	font-family: futura;
+	margin-left: 70px;
+	margin-top: 30px;
+	font-size: 2.3em;
+
+
+}
+
+li {
+	display: inline;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 1em;
+	margin-left: 40px;
+	padding-bottom: 100px;
+	
+}
+
+li a {
+	color: black;
+	text-decoration: none;
+
+}
+
+li a:hover {
+	color: black;
+}
+
+ul {
+margin-left: 900px;
+margin-top: -40px;
+
+}
+
+.btn {
+	margin-left: 550px;
+	margin-top: -340px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: bolder;
+	font-size: 1em;
+	color: white;
+	background-color: black;
+	border: 1px solid #f15a24;
+	border-radius: 30px;
+
+}
+
+.btn:hover {
+	background-color: #f7931e;
+	border: 1px solid #f7931e;
+	color: black;
+}
+
+img {
+	width: 300px;
+margin-left: 70px;
+border: 10px solid black;
+}
+
+h2 {
+	font-size: 1em;
+	font-family: futura;
+	text-align: center;
+	color: white;
+}
+
+h3 {
+	text-align: center;
+	font-family: futura;
+	font-size: 3em;
+	margin-top: -100px;
+	text-decoration: underline;
+
+}
+
+.container2 {
+	margin-top: 30px;
+	background-color: #f7931e;
+	padding-top: 50px;
+}
+
+
+
+
+.box {
+  width: 40%;
+  margin: 0 auto;
+  background: rgba(255,255,255,0.2);
+  padding: 35px;
+  border: 2px solid #fff;
+  border-radius: 20px/50px;
+  background-clip: padding-box;
+  text-align: center;
+}
+
+.button {
+  font-size: 1em;
+  padding: 10px;
+  color: #fff;
+  border: 2px solid #06D85F;
+  border-radius: 20px/50px;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.3s ease-out;
+}
+.button:hover {
+  background: #06D85F;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7);
+  transition: opacity 500ms;
+  visibility: hidden;
+  opacity: 0;
+}
+.overlay:target {
+  visibility: visible;
+  opacity: 1;
+}
+
+.popup {
+  margin: 70px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 5px;
+  width: 30%;
+  position: relative;
+  transition: all 5s ease-in-out;
+}
+
+.popup h2 {
+  margin-top: 0;
+  color: #333;
+  font-family: Tahoma, Arial, sans-serif;
+}
+.popup .close {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  transition: all 200ms;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #333;
+}
+.popup .close:hover {
+  color: #06D85F;
+}
+.popup .content {
+  max-height: 30%;
+  overflow: auto;
+}
+
+@media screen and (max-width: 700px){
+  .box{
+    width: 70%;
+  }
+  .popup{
+    width: 70%;
+  }
+}
+
+
+
+
